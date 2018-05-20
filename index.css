@@ -1,0 +1,116 @@
+.table-wrapper-2 {
+    display: block;
+    max-height: 100vh ;
+    overflow-y: auto;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+html {
+  position: relative;
+  min-height: 100%; }
+
+body {
+  margin-bottom: 90px; }
+.blue-back
+{
+ -ms-overflow-style: -ms-autohiding-scrollbar;
+
+}
+.container2
+{
+
+
+
+}
+.jumbotron{
+    height: 100vh;
+}
+::-webkit-scrollbar {
+    width: 8px;
+}
+.card {
+   border-width: 0;
+
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #c0c0c0; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+/* Chat containers */
+.container {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+.container1 {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+/* Darker chat container */
+.darker {
+    border-color: #ccc;
+    background-color: #ddd;
+}
+.container2::after
+{
+
+max-width:10vmax;
+
+}
+/* Clear floats */
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.text-r
+{
+   
+    max-width: 100vmax;
+    width: 100%;
+    margin-right: 20px;
+    
+}
+/* Style images */
+.container img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+/* Style the right image */
+.container img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right:0;
+}
+
+/* Style time text */
+.time-right {
+    float: right;
+    color: #aaa;
+}
+
+/* Style time text */
+.time-left {
+    float: left;
+    color: #999;
+}
